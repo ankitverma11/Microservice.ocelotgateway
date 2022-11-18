@@ -1,17 +1,17 @@
 {
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:7280"
+    "BaseUrl": "http://localhost:2000"
   },
   "Routes": [
     {
       "UpstreamPathTemplate": "/gateway/students",
-      "UpstreamHttpMethod": [ "Get" ],
+      "UpstreamHttpMethod": [ "Get","Post","Put", "Delete" ],
       "DownstreamPathTemplate": "/api/student",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7281
+          "Port": 2001
         }
       ]
     },
@@ -23,7 +23,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7281
+          "Port": 2001
         }
       ]
     },
@@ -35,7 +35,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7282
+          "Port": 2002
         }
       ]
     },
@@ -47,7 +47,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7282
+          "Port": 2002
         }
       ]
     }

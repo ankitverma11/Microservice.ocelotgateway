@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherService", "TeacherSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotGateway", "OcelotGateway\OcelotGateway.csproj", "{EF1E5DAE-5768-4BFF-B4DA-F5F6944B7B75}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F43DC312-FF10-4A51-BAAC-153AF1B0105F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EF1E5DAE-5768-4BFF-B4DA-F5F6944B7B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF1E5DAE-5768-4BFF-B4DA-F5F6944B7B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF1E5DAE-5768-4BFF-B4DA-F5F6944B7B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F43DC312-FF10-4A51-BAAC-153AF1B0105F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43DC312-FF10-4A51-BAAC-153AF1B0105F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43DC312-FF10-4A51-BAAC-153AF1B0105F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43DC312-FF10-4A51-BAAC-153AF1B0105F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

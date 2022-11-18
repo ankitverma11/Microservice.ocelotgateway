@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  ocelotgateway:
+    image: ${DOCKER_REGISTRY-}ocelotgateway
+    build:
+      context: .
+      dockerfile: OcelotGateway/Dockerfile
+
+  studentservice:
+    image: ${DOCKER_REGISTRY-}studentservice
+    build:
+      context: .
+      dockerfile: StudentService/Dockerfile
+
+
+  teacherservice:
+    image: ${DOCKER_REGISTRY-}teacherservice
+    build:
+      context: .
+      dockerfile: TeacherService/Dockerfile
+

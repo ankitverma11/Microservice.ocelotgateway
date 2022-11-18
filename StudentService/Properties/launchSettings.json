@@ -11,7 +11,7 @@
   "profiles": {
     "StudentService": {
       "commandName": "Project",
-      "applicationUrl": "http://localhost:7281",
+      "applicationUrl": "http://localhost:2001",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

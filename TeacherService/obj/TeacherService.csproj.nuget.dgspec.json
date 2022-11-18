@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ankitkumar/Documents/Projects/Microservice.OcelotGateway/TeacherService/TeacherService.csproj": {}
+    "/Users/ankitkumar/Projects/Microservice.ocelotgateway/TeacherService/TeacherService.csproj": {}
   },
   "projects": {
-    "/Users/ankitkumar/Documents/Projects/Microservice.OcelotGateway/TeacherService/TeacherService.csproj": {
+    "/Users/ankitkumar/Projects/Microservice.ocelotgateway/TeacherService/TeacherService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ankitkumar/Documents/Projects/Microservice.OcelotGateway/TeacherService/TeacherService.csproj",
+        "projectUniqueName": "/Users/ankitkumar/Projects/Microservice.ocelotgateway/TeacherService/TeacherService.csproj",
         "projectName": "TeacherService",
-        "projectPath": "/Users/ankitkumar/Documents/Projects/Microservice.OcelotGateway/TeacherService/TeacherService.csproj",
+        "projectPath": "/Users/ankitkumar/Projects/Microservice.ocelotgateway/TeacherService/TeacherService.csproj",
         "packagesPath": "/Users/ankitkumar/.nuget/packages/",
-        "outputPath": "/Users/ankitkumar/Documents/Projects/Microservice.OcelotGateway/TeacherService/obj/",
+        "outputPath": "/Users/ankitkumar/Projects/Microservice.ocelotgateway/TeacherService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ankitkumar/.nuget/NuGet/NuGet.Config"

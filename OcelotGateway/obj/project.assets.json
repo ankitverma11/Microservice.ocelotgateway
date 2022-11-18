@@ -453,11 +453,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ankitkumar/Documents/Projects/Microservice.OcelotGateway/OcelotGateway/OcelotGateway.csproj",
+      "projectUniqueName": "/Users/ankitkumar/Projects/Microservice.ocelotgateway/OcelotGateway/OcelotGateway.csproj",
       "projectName": "OcelotGateway",
-      "projectPath": "/Users/ankitkumar/Documents/Projects/Microservice.OcelotGateway/OcelotGateway/OcelotGateway.csproj",
+      "projectPath": "/Users/ankitkumar/Projects/Microservice.ocelotgateway/OcelotGateway/OcelotGateway.csproj",
       "packagesPath": "/Users/ankitkumar/.nuget/packages/",
-      "outputPath": "/Users/ankitkumar/Documents/Projects/Microservice.OcelotGateway/OcelotGateway/obj/",
+      "outputPath": "/Users/ankitkumar/Projects/Microservice.ocelotgateway/OcelotGateway/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ankitkumar/.nuget/NuGet/NuGet.Config"

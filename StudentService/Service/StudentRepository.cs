@@ -14,20 +14,26 @@ namespace StudentService.Service
                 new Student
                 {
                     Id = 1,
-                    Name = "Prasad",
-                    School = "Mount Fort"                    
+                    Name = "Ankit",
+                    School = "ST Fort"                    
                 },
                 new Student
                 {
                     Id = 2,
-                    Name = "Praveen",
+                    Name = "Gaurav",
                     School = "Secret Heart"
                 },
                 new Student {
                     Id = 3, 
-                    Name = "Pramod", 
-                    School = "Bishop Memorial"
+                    Name = "Manoj", 
+                    School = "GIC"
+                },
+                new Student {
+                    Id = 4,
+                    Name = "Ankur",
+                    School = "Bachpan"
                 }
+
             };
 
             return result;
@@ -41,6 +47,22 @@ namespace StudentService.Service
         public List<Student> GetAll()
         {
             return _students;
+        }
+
+        public async Task Create(Student student)
+        {
+            _students.Add(student);
+        }
+
+        public async Task Update(int id, Student student)
+        {
+             _students.Remove(_students.First(x => x.Id == id));
+            _students.Add(student);
+        }
+
+        public async Task Delete(int id)
+        {
+            _students.Remove(_students.First(x => x.Id == id));
         }
     }
 }

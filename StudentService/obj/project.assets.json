@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ankitkumar/Documents/Projects/Microservice.OcelotGateway/StudentService/StudentService.csproj",
+      "projectUniqueName": "/Users/ankitkumar/Projects/Microservice.ocelotgateway/StudentService/StudentService.csproj",
       "projectName": "StudentService",
-      "projectPath": "/Users/ankitkumar/Documents/Projects/Microservice.OcelotGateway/StudentService/StudentService.csproj",
+      "projectPath": "/Users/ankitkumar/Projects/Microservice.ocelotgateway/StudentService/StudentService.csproj",
       "packagesPath": "/Users/ankitkumar/.nuget/packages/",
-      "outputPath": "/Users/ankitkumar/Documents/Projects/Microservice.OcelotGateway/StudentService/obj/",
+      "outputPath": "/Users/ankitkumar/Projects/Microservice.ocelotgateway/StudentService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ankitkumar/.nuget/NuGet/NuGet.Config"
